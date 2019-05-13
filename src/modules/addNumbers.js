@@ -11,3 +11,7 @@ export function addFive(num) {
 export function addOne(num) {
   return add(num, 1);
 }
+
+export function addTwo(num){
+  return add(num, 2);
+}

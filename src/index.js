@@ -2,7 +2,7 @@ import add from "./modules/add";
 import subtract from "./modules/subtract";
 import multiply from "./modules/multiply";
 import divide from './modules/divide';
-import {addTen, addFive, addOne} from "./modules/addNumbers";
+import {addTen, addFive, addOne, addTwo} from "./modules/addNumbers";
 import {subtractOne, subtractFive, subtractTen} from "./modules/subtractNumbers";
 
 const number1 = 393;
@@ -37,3 +37,6 @@ console.log(answer);
 
 answer = subtractTen(number1);
 console.log(answer);
+
+answer = addTwo(number1, number2);
+console.log(answer)
